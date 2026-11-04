@@ -1,0 +1,124 @@
+/* =========================================
+   :root {
+  --green: #4F7D32;
+  --yellow: #FFD16A;
+  --amber: #F5B52E;
+  --red: #D9361E;
+  --cream: #FFF8EC;
+  --ink: #2B2118;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+   background-color: var(--cream);
+  color: var(--ink);
+
+}
+
+/* Stops any image from being wider than the page */
+img {
+  .logo {
+  font-family: Georgia, serif;
+}
+
+h2 {
+  color: var(--green);
+  font-size: 32px;
+}
+  max-width: 100%;
+}
+
+
+/* ---------- Top bar ---------- */
+
+.navbar {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 3px solid var(--yellow);
+  padding: 16px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.navbar a {
+  color: var(--ink);
+  text-decoration: none;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.navbar a:hover {
+  color: var(--red);
+}
+.navbar .logo {
+  color: var(--red);
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+
+/* ---------- Intro ---------- */
+
+.intro {
+  text-align: center;
+  padding: 40px 0;
+}
+.photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid var(--yellow);
+}
+
+
+
+/* ---------- Projects ---------- */
+
+.project {
+  border: 1px solid #cccccc;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.project img {
+  width: 200px;
+}
+
+
+/* ---------- Contact ---------- */
+
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 12px 24px;
+  background-color: var(--green);
+  color: white;
+  border: 2px solid var(--green);
+  border-radius: 999px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--red);
+  border-color: var(--red);
+  color: white;
+}
+
+
+/* ---------- Footer ---------- */
+
+.footer {
+  text-align: center;
+  border-top: 1px solid #cccccc;
+}
